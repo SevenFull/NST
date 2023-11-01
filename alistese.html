@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Aliste-se - Navy Seals Airsoft Team</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="img/fivecom 1.png" type="image/x-icon" />
+  </head>
+  <body>
+    <header>
+      <div class="header-container">
+        <h1>
+          <img class="logo" src="img/NST sem fundo.png" alt="Logo Navy Seals" />
+        </h1>
+        <nav>
+          <ul class="menu">
+            <li><a href="Index.html">Inicio</a></li>
+            <li><a href="index.html#regras-airsoft">Conduta</a></li>
+            <li><a href="index.html#sobre-nos">Sobre Nós</a></li>
+            <li><a href="equipe.html">Equipe</a></li>
+            <li><a href="alistese.html">Aliste-se</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    </header>
+    <main>
+      <form>
+        <label for="nomesobrenome">Nome completo</label>
+        <input
+          type="text"
+          id="nomesobrenome"
+          class="input-padrao"
+          required
+          placeholder="João Carlos Oliveira"
+        />
+        <label for="idade">Idade</label>
+        <input
+          type="text"
+          id="idade"
+          class="input-padrao"
+          required
+          placeholder="18 anos"
+        />
+        <label for="email">E-mail</label>
+        <input
+          type="email"
+          id="email"
+          class="input-padrao"
+          required
+          placeholder="seuemail@dominio.com"
+        />
+        <label for="telefone">Telefone</label>
+        <input
+          type="tel"
+          id="telefone"
+          class="input-padrao"
+          required
+          placeholder="(XX) XXXXX-XXXX"
+        />
+        <label for="cidadeeestado">Cidade e Estado</label>
+        <input
+          type="text"
+          id="cidadeeestado"
+          class="input-padrao"
+          required
+          placeholder="Ibatiba-ES"
+        />
+        <label for="mensagem">Mensagem</label>
+        <textarea
+          cols="70"
+          rows="10"
+          id="mensagem"
+          class="input-padrao"
+          required
+          placeholder="Fale mais sobre você!"
+        ></textarea>
+        <fieldset>
+          <legend>Como prefere o nosso contato?</legend>
+          <label for="radio-email"
+            ><input
+              type="radio"
+              name="contato"
+              value="email"
+              id="radio-email"
+            />
+            Email</label
+          >
+          <label for="radio-telefone"
+            ><input
+              type="radio"
+              name="contato"
+              value="telefone"
+              id="radio-telefone"
+            />
+            Telefone</label
+          >
+          <label for="radio-whatsapp"
+            ><input
+              type="radio"
+              name="contato"
+              value="whatsapp"
+              id="radio-whatsapp"
+              checked
+            />
+            WhatsApp</label
+          >
+        </fieldset>
+        <input type="submit" value="Enviar formulário" class="enviar" />
+      </form>
+    </main>
+    <footer>
+      <p class="texto-rede-social">Siga nossa rede social!</p>
+      <a
+        href="https://www.instagram.com/navy.seals.airsoft.team.es/"
+        target="_blank"
+      >
+        <img class="redes-social" src="img/Instagram.png" alt="Instagram" />
+      </a>
+      <br />
+      <img
+        class="logo-footer"
+        src="img/NST sem fundo.png"
+        alt="Logo da Navy Seals Team"
+      />
+      <p class="copyright">&copy; Navy Seals Team - 2023</p>
+    </footer>
+  </body>
+</html>
